@@ -1,10 +1,9 @@
-package br.com.fiap.checkpoint3.dtos;
+package br.com.fiap.contatos.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-
 @Getter
 @Setter
-public class ContatosRequestUpdateDto {
+public class ContatoRequestCreateDto {
     private String nome;
 }

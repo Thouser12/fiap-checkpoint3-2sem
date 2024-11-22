@@ -1,4 +1,4 @@
-package br.com.fiap.checkpoint3.model;
+package br.com.fiap.contatos.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -9,12 +9,11 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Contatos {
-	@Id
+public class Contato {
+    @Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
-
-	@Column(nullable = false, length = 50)
+    private Long id;
+	
+	@Column(nullable = false, length = 60)
 	private String nome;
-
 }

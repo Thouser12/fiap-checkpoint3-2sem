@@ -1,4 +1,5 @@
-package br.com.fiap.checkpoint3.config;
+package br.com.fiap.contatos.config;
+
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
